@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files\Rockwell Automation\FactoryTalk Optix\Studio 1.5.0.221\Modules\FTOptix.DataLogger.Net\1.0.8.40\Any\FTOptix.CoreBase.Net.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BEAB3F1-A3D0-46AD-AF47-F1A62DF0C4DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>FTOptix.CoreBase.Net</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>1.1.2.38</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>FTOptix.CoreBase</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FTOptix.Core.Net" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="UAManagedCore" />
+    <Reference Include="UAManagedCoreCommon" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConverterExtensions.cs" />
+    <Compile Include="DynamicLinkExtensions.cs" />
+    <Compile Include="ConditionalConverter.cs" />
+    <Compile Include="ConditionalConverterType.cs" />
+    <Compile Include="Converter.cs" />
+    <Compile Include="ConverterType.cs" />
+    <Compile Include="DynamicLink.cs" />
+    <Compile Include="DynamicLinkEUMode.cs" />
+    <Compile Include="DynamicLinkMode.cs" />
+    <Compile Include="DynamicLinkPath.cs" />
+    <Compile Include="DynamicLinkType.cs" />
+    <Compile Include="EUConverter.cs" />
+    <Compile Include="EUConverterType.cs" />
+    <Compile Include="EventHandler.cs" />
+    <Compile Include="EventHandlerType.cs" />
+    <Compile Include="ExpressionEvaluator.cs" />
+    <Compile Include="ExpressionEvaluatorType.cs" />
+    <Compile Include="LinearConverter.cs" />
+    <Compile Include="LinearConverterType.cs" />
+    <Compile Include="MethodInvocation.cs" />
+    <Compile Include="MethodInvocationType.cs" />
+    <Compile Include="StringFormatter.cs" />
+    <Compile Include="StringFormatterType.cs" />
+    <Compile Include="Types.cs" />
+    <Compile Include="1Types.cs" />
+    <Compile Include="2Types.cs" />
+    <Compile Include="3Types.cs" />
+    <Compile Include="4Types.cs" />
+    <Compile Include="5Types.cs" />
+    <Compile Include="ValueMapConverter.cs" />
+    <Compile Include="ValueMapConverterBaseDataCollection.cs" />
+    <Compile Include="ValueMapConverterType.cs" />
+    <Compile Include="VariableChangedEventDispatcher.cs" />
+    <Compile Include="VariableChangedEventDispatcherType.cs" />
+    <Compile Include="VariableConditionEvent.cs" />
+    <Compile Include="VariableConditionEventDispatcher.cs" />
+    <Compile Include="VariableConditionEventDispatcherType.cs" />
+    <Compile Include="VariableRangeTransition.cs" />
+    <Compile Include="VariableRangeTransitionEvent.cs" />
+    <Compile Include="VariableRangeTransitionEventDispatcher.cs" />
+    <Compile Include="VariableRangeTransitionEventDispatcherType.cs" />
+    <Compile Include="VariableTransition.cs" />
+    <Compile Include="VariableTransitionEvent.cs" />
+    <Compile Include="VariableTransitionEventDispatcher.cs" />
+    <Compile Include="VariableTransitionEventDispatcherType.cs" />
+    <Compile Include="VariableValueChangedEvent.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

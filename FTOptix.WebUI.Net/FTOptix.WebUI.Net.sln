@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTOptix.WebUI.Net", "FTOptix.WebUI.Net.csproj", "{1582B725-774B-4472-BAAD-942A70A40257}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1582B725-774B-4472-BAAD-942A70A40257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1582B725-774B-4472-BAAD-942A70A40257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1582B725-774B-4472-BAAD-942A70A40257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1582B725-774B-4472-BAAD-942A70A40257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

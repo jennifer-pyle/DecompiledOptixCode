@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files\Rockwell Automation\FactoryTalk Optix\Studio 1.5.0.221\Modules\FTOptix.ODBCStore.Net\1.0.8.40\Any\FTOptix.ODBCStore.Net.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C23FEE8-A0CC-4831-9F70-0CA7A27BA94B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>FTOptix.ODBCStore.Net</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.8.40</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>FTOptix.ODBCStore</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FTOptix.Store.Net" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="UAManagedCore" />
+    <Reference Include="UAManagedCoreCommon" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBMSType.cs" />
+    <Compile Include="ODBCStore.cs" />
+    <Compile Include="ODBCStoreTable.cs" />
+    <Compile Include="ODBCStoreTableType.cs" />
+    <Compile Include="ODBCStoreType.cs" />
+    <Compile Include="Types.cs" />
+    <Compile Include="1Types.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

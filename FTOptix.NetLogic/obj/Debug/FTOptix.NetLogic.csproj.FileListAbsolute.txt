@@ -1,0 +1,2 @@
+D:\soure\repos\Other\FTOptixDecompiledCode\FTOptix.NetLogic\obj\Debug\FTOptix.NetLogic.csproj.AssemblyReference.cache
+D:\soure\repos\Other\FTOptixDecompiledCode\FTOptix.NetLogic\obj\Debug\FTOptix.NetLogic.csproj.CoreCompileInputs.cache

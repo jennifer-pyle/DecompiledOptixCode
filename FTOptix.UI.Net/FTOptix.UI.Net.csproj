@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!--Project was exported from assembly: C:\Program Files\Rockwell Automation\FactoryTalk Optix\Studio 1.5.0.221\Modules\FTOptix.UI.Net\12.4.1.43\Any\FTOptix.UI.Net.dll-->
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{8203B676-7339-4077-995B-DFDE411F2A32}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AssemblyName>FTOptix.UI.Net</AssemblyName>
+		<TargetFramework>net8.0</TargetFramework>
+		<ApplicationVersion>12.4.1.43</ApplicationVersion>
+		<FileAlignment>512</FileAlignment>
+		<RootNamespace>FTOptix.UI</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="FTOptix.Core.Net" />
+		<Reference Include="FTOptix.HMIProject.Net" />
+		<Reference Include="System.Collections" />
+		<Reference Include="System.Runtime" />
+		<Reference Include="UAManagedCore" />
+		<Reference Include="UAManagedCoreCommon" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="AbstractAnimation.cs" />
+		<Compile Include="AbstractAnimationType.cs" />
+		<Compile Include="Accordion.cs" />
+		<Compile Include="AccordionContent.cs" />
+		<Compile Include="AccordionContentType.cs" />
+		<Compile Include="AccordionHeader.cs" />
+		<Compile Include="AccordionHeaderType.cs" />
+		<Compile Include="AccordionStyle.cs" />
+		<Compile Include="AccordionStyleType.cs" />
+		<Compile Include="AccordionType.cs" />
+		<Compile Include="AdvancedSVGElementProperty.cs" />
+		<Compile Include="AdvancedSVGElementPropertyType.cs" />
+		<Compile Include="AdvancedSVGImage.cs" />
+		<Compile Include="AdvancedSVGImagePropertyClass.cs" />
+		<Compile Include="AdvancedSVGImageType.cs" />
+		<Compile Include="BaseUIObject.cs" />
+		<Compile Include="BaseUIObjectType.cs" />
+		<Compile Include="BehaviourAnimation.cs" />
+		<Compile Include="BehaviourAnimationType.cs" />
+		<Compile Include="Button.cs" />
+		<Compile Include="ButtonStyle.cs" />
+		<Compile Include="ButtonStyleType.cs" />
+		<Compile Include="ButtonType.cs" />
+		<Compile Include="ChartStyle.cs" />
+		<Compile Include="ChartStyleType.cs" />
+		<Compile Include="CheckBox.cs" />
+		<Compile Include="CheckBoxStyle.cs" />
+		<Compile Include="CheckBoxStyleType.cs" />
+		<Compile Include="CheckBoxType.cs" />
+		<Compile Include="ChildItemCollection.cs" />
+		<Compile Include="CircularGauge.cs" />
+		<Compile Include="CircularGaugeType.cs" />
+		<Compile Include="ColorizationMode.cs" />
+		<Compile Include="Colors.cs" />
+		<Compile Include="ColumnLayout.cs" />
+		<Compile Include="ColumnLayoutType.cs" />
+		<Compile Include="ComboBox.cs" />
+		<Compile Include="ComboBoxMode.cs" />
+		<Compile Include="ComboBoxType.cs" />
+		<Compile Include="Container.cs" />
+		<Compile Include="ContainerType.cs" />
+		<Compile Include="ContentHorizontalAlignment.cs" />
+		<Compile Include="ContentVerticalAlignment.cs" />
+		<Compile Include="ControlStyle.cs" />
+		<Compile Include="ControlStyleType.cs" />
+		<Compile Include="DataGrid.cs" />
+		<Compile Include="DataGridColumn.cs" />
+		<Compile Include="DataGridColumnType.cs" />
+		<Compile Include="DataGridEditableLabelItemTemplate.cs" />
+		<Compile Include="DataGridEditableLabelItemTemplateType.cs" />
+		<Compile Include="DataGridImageItemTemplate.cs" />
+		<Compile Include="DataGridImageItemTemplateType.cs" />
+		<Compile Include="DataGridItemTemplate.cs" />
+		<Compile Include="DataGridItemTemplateType.cs" />
+		<Compile Include="DataGridLabelItemTemplate.cs" />
+		<Compile Include="DataGridLabelItemTemplateType.cs" />
+		<Compile Include="DataGridType.cs" />
+		<Compile Include="DataListStyle.cs" />
+		<Compile Include="DataListStyleType.cs" />
+		<Compile Include="DateTimeAxis.cs" />
+		<Compile Include="DateTimeAxisType.cs" />
+		<Compile Include="DateTimePicker.cs" />
+		<Compile Include="DateTimePickerInputFormat.cs" />
+		<Compile Include="DateTimePickerType.cs" />
+		<Compile Include="DelayedButton.cs" />
+		<Compile Include="DelayedButtonType.cs" />
+		<Compile Include="Dial.cs" />
+		<Compile Include="Dialog.cs" />
+		<Compile Include="DialogType.cs" />
+		<Compile Include="DialType.cs" />
+		<Compile Include="DropDownButton.cs" />
+		<Compile Include="DropDownButtonAnimationType.cs" />
+		<Compile Include="DropDownButtonType.cs" />
+		<Compile Include="DurationPicker.cs" />
+		<Compile Include="DurationPickerType.cs" />
+		<Compile Include="EasingCurve.cs" />
+		<Compile Include="EditableLabel.cs" />
+		<Compile Include="EditableLabelType.cs" />
+		<Compile Include="Elide.cs" />
+		<Compile Include="Ellipse.cs" />
+		<Compile Include="EllipseType.cs" />
+		<Compile Include="FillMode.cs" />
+		<Compile Include="FontWeight.cs" />
+		<Compile Include="GaugeStyle.cs" />
+		<Compile Include="GaugeStyleType.cs" />
+		<Compile Include="GetPanelLoaderExtensions.cs" />
+		<Compile Include="GridLayout.cs" />
+		<Compile Include="GridLayoutProperties.cs" />
+		<Compile Include="GridLayoutType.cs" />
+		<Compile Include="HeaderIconPosition.cs" />
+		<Compile Include="HistogramChart.cs" />
+		<Compile Include="HistogramChartStyle.cs" />
+		<Compile Include="HistogramChartStyleType.cs" />
+		<Compile Include="HistogramChartType.cs" />
+		<Compile Include="HorizontalAlignment.cs" />
+		<Compile Include="HorizontalPosition.cs" />
+		<Compile Include="IdleTimeoutEvent.cs" />
+		<Compile Include="Image.cs" />
+		<Compile Include="ImageType.cs" />
+		<Compile Include="InputBoxStyle.cs" />
+		<Compile Include="InputBoxStyleType.cs" />
+		<Compile Include="InputType.cs" />
+		<Compile Include="Item.cs" />
+		<Compile Include="ItemExtensions.cs" />
+		<Compile Include="ItemType.cs" />
+		<Compile Include="Label.cs" />
+		<Compile Include="LabelStyle.cs" />
+		<Compile Include="LabelStyleType.cs" />
+		<Compile Include="LabelType.cs" />
+		<Compile Include="Led.cs" />
+		<Compile Include="LedType.cs" />
+		<Compile Include="LinearGauge.cs" />
+		<Compile Include="LinearGaugeType.cs" />
+		<Compile Include="ListBox.cs" />
+		<Compile Include="ListBoxType.cs" />
+		<Compile Include="MomentaryButton.cs" />
+		<Compile Include="MomentaryButtonType.cs" />
+		<Compile Include="MouseClickEvent.cs" />
+		<Compile Include="MouseDoubleClickEvent.cs" />
+		<Compile Include="MouseDownEvent.cs" />
+		<Compile Include="MouseEvent.cs" />
+		<Compile Include="MouseLongPressEvent.cs" />
+		<Compile Include="MouseUpEvent.cs" />
+		<Compile Include="NavigationPanel.cs" />
+		<Compile Include="NavigationPanelItem.cs" />
+		<Compile Include="NavigationPanelItemType.cs" />
+		<Compile Include="NavigationPanelStyle.cs" />
+		<Compile Include="NavigationPanelStyleType.cs" />
+		<Compile Include="NavigationPanelTabPosition.cs" />
+		<Compile Include="NavigationPanelType.cs" />
+		<Compile Include="NumberAnimation.cs" />
+		<Compile Include="NumberAnimationType.cs" />
+		<Compile Include="Orientation.cs" />
+		<Compile Include="Panel.cs" />
+		<Compile Include="PanelLoader.cs" />
+		<Compile Include="PanelLoaderAnimationType.cs" />
+		<Compile Include="PanelLoaderType.cs" />
+		<Compile Include="PanelType.cs" />
+		<Compile Include="ParallelAnimation.cs" />
+		<Compile Include="ParallelAnimationType.cs" />
+		<Compile Include="PdfViewer.cs" />
+		<Compile Include="PdfViewerType.cs" />
+		<Compile Include="PdfViewerZoomMode.cs" />
+		<Compile Include="PieChart.cs" />
+		<Compile Include="PieChartStyle.cs" />
+		<Compile Include="PieChartStyleType.cs" />
+		<Compile Include="PieChartType.cs" />
+		<Compile Include="PolyLine.cs" />
+		<Compile Include="PolyLineType.cs" />
+		<Compile Include="Popup.cs" />
+		<Compile Include="PopupType.cs" />
+		<Compile Include="Position.cs" />
+		<Compile Include="PresentationEngine.cs" />
+		<Compile Include="PresentationEngineType.cs" />
+		<Compile Include="RadioButton.cs" />
+		<Compile Include="RadioButtonStyle.cs" />
+		<Compile Include="RadioButtonStyleType.cs" />
+		<Compile Include="RadioButtonType.cs" />
+		<Compile Include="RangeSlider.cs" />
+		<Compile Include="RangeSliderType.cs" />
+		<Compile Include="Rectangle.cs" />
+		<Compile Include="RectangleType.cs" />
+		<Compile Include="ReferenceTimeZone.cs" />
+		<Compile Include="RowLayout.cs" />
+		<Compile Include="RowLayoutType.cs" />
+		<Compile Include="ScaleLayout.cs" />
+		<Compile Include="ScaleLayoutType.cs" />
+		<Compile Include="Screen.cs" />
+		<Compile Include="ScreenType.cs" />
+		<Compile Include="ScrollAxesEnabled.cs" />
+		<Compile Include="ScrollBarStyle.cs" />
+		<Compile Include="ScrollBarStyleType.cs" />
+		<Compile Include="ScrollView.cs" />
+		<Compile Include="ScrollViewType.cs" />
+		<Compile Include="SequentialAnimation.cs" />
+		<Compile Include="SequentialAnimationType.cs" />
+		<Compile Include="SnapPosition.cs" />
+		<Compile Include="SortOrder.cs" />
+		<Compile Include="Sparkline.cs" />
+		<Compile Include="SparklineType.cs" />
+		<Compile Include="SpinBox.cs" />
+		<Compile Include="SpinBoxType.cs" />
+		<Compile Include="StyleSheet.cs" />
+		<Compile Include="StyleSheetType.cs" />
+		<Compile Include="Switch.cs" />
+		<Compile Include="SwitchStyle.cs" />
+		<Compile Include="SwitchStyleType.cs" />
+		<Compile Include="SwitchType.cs" />
+		<Compile Include="TextBox.cs" />
+		<Compile Include="TextBoxType.cs" />
+		<Compile Include="TextHorizontalAlignment.cs" />
+		<Compile Include="TextVerticalAlignment.cs" />
+		<Compile Include="ToggleButton.cs" />
+		<Compile Include="ToggleButtonType.cs" />
+		<Compile Include="ToolTipStyle.cs" />
+		<Compile Include="ToolTipStyleType.cs" />
+		<Compile Include="Trend.cs" />
+		<Compile Include="TrendMode.cs" />
+		<Compile Include="TrendPen.cs" />
+		<Compile Include="TrendPenType.cs" />
+		<Compile Include="TrendThreshold.cs" />
+		<Compile Include="TrendThresholdType.cs" />
+		<Compile Include="TrendType.cs" />
+		<Compile Include="Types.cs" />
+		<Compile Include="1Types.cs" />
+		<Compile Include="2Types.cs" />
+		<Compile Include="3Types.cs" />
+		<Compile Include="UICommands.cs" />
+		<Compile Include="UISession.cs" />
+		<Compile Include="UISessionType.cs" />
+		<Compile Include="UserSelectionChangedEvent.cs" />
+		<Compile Include="UserTextChangedEvent.cs" />
+		<Compile Include="UserValueChangedEvent.cs" />
+		<Compile Include="ValueAxis.cs" />
+		<Compile Include="ValueAxisType.cs" />
+		<Compile Include="ValueChangeBehaviour.cs" />
+		<Compile Include="VerticalAlignment.cs" />
+		<Compile Include="Video.cs" />
+		<Compile Include="VideoType.cs" />
+		<Compile Include="WarningZone.cs" />
+		<Compile Include="WarningZoneType.cs" />
+		<Compile Include="WebBrowser.cs" />
+		<Compile Include="WebBrowserType.cs" />
+		<Compile Include="Window.cs" />
+		<Compile Include="WindowExtensions.cs" />
+		<Compile Include="WindowType.cs" />
+		<Compile Include="XYChart.cs" />
+		<Compile Include="XYChartArrayLinePen.cs" />
+		<Compile Include="XYChartArrayLinePenType.cs" />
+		<Compile Include="XYChartLinePen.cs" />
+		<Compile Include="XYChartLinePenType.cs" />
+		<Compile Include="XYChartPen.cs" />
+		<Compile Include="XYChartPenType.cs" />
+		<Compile Include="XYChartPolygonPen.cs" />
+		<Compile Include="XYChartPolygonPenType.cs" />
+		<Compile Include="XYChartScalarLinePen.cs" />
+		<Compile Include="XYChartScalarLinePenType.cs" />
+		<Compile Include="XYChartType.cs" />
+		<Compile Include="AssemblyInfo.cs" />
+	</ItemGroup>
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

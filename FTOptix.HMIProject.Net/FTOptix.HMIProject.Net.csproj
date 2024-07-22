@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files\Rockwell Automation\FactoryTalk Optix\Studio 1.5.0.221\Modules\FTOptix.HMIProject.Net\4.4.2.38\Any\FTOptix.HMIProject.Net.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{137C5C3A-73A6-4164-93F5-00A098EC3A64}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>FTOptix.HMIProject.Net</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>4.4.2.38</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>FTOptix.HMIProject</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FTOptix.Core.Net" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Collections.Concurrent" />
+    <Reference Include="System.Linq" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="UAManagedCore" />
+    <Reference Include="UAManagedCoreCommon" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmConfiguration.cs" />
+    <Compile Include="AlarmsCategoryFolder.cs" />
+    <Compile Include="Authentication.cs" />
+    <Compile Include="CategoryFolder.cs" />
+    <Compile Include="CommDriversCategoryFolder.cs" />
+    <Compile Include="ConvertersCategoryFolder.cs" />
+    <Compile Include="DataStoresCategoryFolder.cs" />
+    <Compile Include="EdgeAppCategoryFolder.cs" />
+    <Compile Include="GroupsCategoryFolder.cs" />
+    <Compile Include="InformationModel.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="LoggersCategoryFolder.cs" />
+    <Compile Include="ModelCategoryFolder.cs" />
+    <Compile Include="NetLogicCategoryFolder.cs" />
+    <Compile Include="OPCUACategoryFolder.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="ProjectFolder.cs" />
+    <Compile Include="ProjectFolderType.cs" />
+    <Compile Include="ProjectLoadedEvent.cs" />
+    <Compile Include="RecipesCategoryFolder.cs" />
+    <Compile Include="ReportsCategoryFolder.cs" />
+    <Compile Include="RetentivityCategoryFolder.cs" />
+    <Compile Include="RolesCategoryFolder.cs" />
+    <Compile Include="ScreensCategoryFolder.cs" />
+    <Compile Include="SecurityCategoryFolder.cs" />
+    <Compile Include="SystemCategoryFolder.cs" />
+    <Compile Include="TranslationsCategoryFolder.cs" />
+    <Compile Include="Types.cs" />
+    <Compile Include="1Types.cs" />
+    <Compile Include="2Types.cs" />
+    <Compile Include="3Types.cs" />
+    <Compile Include="UICategoryFolder.cs" />
+    <Compile Include="UsersCategoryFolder.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

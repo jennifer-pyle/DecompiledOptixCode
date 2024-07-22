@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files\Rockwell Automation\FactoryTalk Optix\Studio 1.5.0.221\Modules\FTOptix.Alarm.Net\1.2.1.48\Any\FTOptix.Alarm.Net.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAF4EA8E-471A-4E15-A22E-485FC18FDBDD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>FTOptix.Alarm.Net</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>1.2.1.48</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>FTOptix.Alarm</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime" />
+    <Reference Include="UAManagedCore" />
+    <Reference Include="UAManagedCoreCommon" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmController.cs" />
+    <Compile Include="AlarmControllerType.cs" />
+    <Compile Include="DigitalAlarm.cs" />
+    <Compile Include="DigitalAlarmType.cs" />
+    <Compile Include="ExclusiveDeviationAlarmController.cs" />
+    <Compile Include="ExclusiveDeviationAlarmControllerType.cs" />
+    <Compile Include="ExclusiveLevelAlarmController.cs" />
+    <Compile Include="ExclusiveLevelAlarmControllerType.cs" />
+    <Compile Include="ExclusiveLimitAlarmController.cs" />
+    <Compile Include="ExclusiveLimitAlarmControllerType.cs" />
+    <Compile Include="ExclusiveLimitState.cs" />
+    <Compile Include="ExclusiveLimitTransition.cs" />
+    <Compile Include="ExclusiveRateOfChangeAlarmController.cs" />
+    <Compile Include="ExclusiveRateOfChangeAlarmControllerType.cs" />
+    <Compile Include="LimitAlarmController.cs" />
+    <Compile Include="LimitAlarmControllerType.cs" />
+    <Compile Include="NonExclusiveDeviationAlarmController.cs" />
+    <Compile Include="NonExclusiveDeviationAlarmControllerType.cs" />
+    <Compile Include="NonExclusiveLevelAlarmController.cs" />
+    <Compile Include="NonExclusiveLevelAlarmControllerType.cs" />
+    <Compile Include="NonExclusiveLimitAlarmController.cs" />
+    <Compile Include="NonExclusiveLimitAlarmControllerType.cs" />
+    <Compile Include="NonExclusiveRateOfChangeAlarmController.cs" />
+    <Compile Include="NonExclusiveRateOfChangeAlarmControllerType.cs" />
+    <Compile Include="Types.cs" />
+    <Compile Include="1Types.cs" />
+    <Compile Include="2Types.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

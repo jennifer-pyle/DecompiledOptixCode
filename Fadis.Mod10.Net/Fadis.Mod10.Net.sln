@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fadis.Mod10.Net", "Fadis.Mod10.Net.csproj", "{0D5F1A26-2E38-4763-A4ED-0B58B82ECDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D5F1A26-2E38-4763-A4ED-0B58B82ECDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5F1A26-2E38-4763-A4ED-0B58B82ECDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5F1A26-2E38-4763-A4ED-0B58B82ECDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5F1A26-2E38-4763-A4ED-0B58B82ECDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

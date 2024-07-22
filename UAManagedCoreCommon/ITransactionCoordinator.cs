@@ -1,0 +1,24 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: UAManagedCore.ITransactionCoordinator
+// Assembly: UAManagedCoreCommon, Version=3.0.2.27, Culture=neutral, PublicKeyToken=null
+// MVID: 112CBBC4-199A-41CD-AD80-B5EB5D2D335E
+// Assembly location: C:\Program Files\Rockwell Automation\FactoryTalk Optix\Studio 1.5.0.221\Bindings\Net\3.0.2.27\Win32_x64\UAManagedCoreCommon.dll
+
+using System.ComponentModel;
+
+#nullable disable
+namespace UAManagedCore
+{
+  [EditorBrowsable(EditorBrowsableState.Never)]
+  public interface ITransactionCoordinator
+  {
+    [EditorBrowsable(EditorBrowsableState.Never)]
+    void OnStartTransaction(uint transactionId);
+
+    [EditorBrowsable(EditorBrowsableState.Never)]
+    void OnAbortTransaction(uint transactionId);
+
+    [EditorBrowsable(EditorBrowsableState.Never)]
+    bool OnCommitTransaction(uint transactionId);
+  }
+}
